@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { BedDouble, Users } from 'lucide-react';
 
-const BACKEND_URL = 'http://127.0.0.1:5000';
+const BACKEND_URL = 'https://hostler.onrender.com';
 
 interface Room {
   id: number;
