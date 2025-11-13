@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
-const BACKEND_URL = 'http://127.0.0.1:5000';
+const BACKEND_URL = 'https://hostler.onrender.com';
 const STUDENT_ID_TO_FETCH = 1; // Demo: Fetching for Student ID 1
 
 interface Bill {
